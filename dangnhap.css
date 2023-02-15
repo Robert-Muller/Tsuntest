@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #6f39f6;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.lienHe {
+  position: relative;
+  width: 32%;
+  text-align: center;
+  line-height: 50px;
+  color: aliceblue;
+}
+.lienHe a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.khuyenMai {
+  position: relative;
+  width: 32%;
+  height: 30px;
+  top: 10px;
+  color: aliceblue;
+}
+.search {
+  position: relative;
+  /* width: 32%; */
+  height: 30px;
+  top: 10px;
+  display: flex;
+}
+/* thanh search */
+#search {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  /* position: relative; */
+}
+
+.search_icon {
+  /* position: absolute; */
+  height: 100%;
+  width: 34px;
+  border-radius: 5px;
+  margin-left: 8px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submit_search {
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  list-style: 20px;
+  margin-top: 5px;
+}
+
+.header_2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 50px;
+  /* background-color:brown; */
+  color: black;
+}
+
+.logo {
+  width: 25%;
+}
+
+.logo a {
+  padding-left: 100px;
+}
+
+.heading_description {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  /* width: 60%; */
+  font-size: 18px;
+}
+
+.menu li {
+  margin-left: 35px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu li a {
+  width: 90px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+}
+.menu li a:hover {
+  color: #f7c111;
+}
+
+.heading_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.fa-user-friends {
+  margin-right: 10px;
+}
+
+.heading_login_button {
+  cursor: pointer;
+}
+
+.heading_login_button:hover {
+  color: #f7c111;
+}
+
+.cart {
+  margin-left: 10px;
+  position: relative;
+}
+
+.cart_description {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 14px;
+}
+
+.header_2_right {
+  line-height: 50px;
+}
+
+.link_dn {
+  padding-left: 50px;
+  color: black;
+  line-height: 50px;
+  font-size: 13px;
+}
+
+.header_2_right a {
+  color: black;
+}
+
+.dangKy {
+  width: 60%;
+  /* background-color:aqua; */
+  text-align: center;
+  position: relative;
+  top: 10px;
+  left: 20%;
+}
+
+.content_account {
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header_dangnhap {
+  margin-top: 14px;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.header_dangnhap span {
+  font-size: 40px;
+  color: #5ecfbd;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bottom_dn {
+  height: 2px;
+  width: 8%;
+  background-color: black;
+  position: relative;
+  left: 46%;
+  border: none;
+}
+
+.input_res {
+  width: 90%;
+  height: 50px;
+  background-color: #ededed;
+  border: none;
+  margin: 40px 0 5px 0;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.policy_login {
+  color: #2962ff;
+  margin-top: 20px;
+}
+.policy {
+  margin-top: 20px;
+}
+
+.login {
+  color: white;
+  background-color: #f7c111;
+  display: inline-block;
+  border-radius: 0;
+  padding: 0 30px;
+  height: 55px;
+  line-height: 55px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.form_submit {
+  position: relative;
+  margin: 20px;
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  width: 100px;
+}
+.submit {
+  height: 50px;
+  background-color: #f7c112;
+  text-align: center;
+  width: 100px;
+  border: none;
+  color: white;
+}
+.form_submit .submit:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #f7c112;
+}
+
+.form_forgot_password {
+  margin-top: 20px;
+}
+
+.password_forgot {
+  display: inline-block;
+  /* margin-top: 100px; */
+  color: black;
+}
+
+.password_forgot:hover {
+  color: #f7c112;
+}

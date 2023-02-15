@@ -1,0 +1,59 @@
+.thanhtoan{
+    margin: 50px 120px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+label{
+    font-size: 22px;
+}
+input{
+    font-size: 15px;
+}
+#name{
+    margin: 10px;
+    width: 550px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#email{
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#phone{
+    margin: 10px;
+    width: 242px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#diachi{
+    margin: 10px 0px 60px;
+    width: 590px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 450px;
+    width: 242px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}

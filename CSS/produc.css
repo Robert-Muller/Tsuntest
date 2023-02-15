@@ -1,0 +1,108 @@
+body{
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+#menu_top {
+	
+	height: 100px;
+	
+	text-align: center;
+	font-style: quicksand;
+}
+
+#main {
+	 
+    width: 1000px;
+	margin: 0px auto;
+}
+
+#footer #left {
+	min-height: 200px;
+	width: 700px;
+	float: left ;
+}
+
+#footer #right {
+	width: 300px;
+	float: left ;
+	min-height: 200px;
+	font-size: 20px;
+
+}
+
+#footer #right ul li {
+	font-style: oblique;
+}
+
+#main ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main ul li {
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+}
+
+#main ul li img{
+	float: left;
+	margin-right: 10px;
+
+}
+
+#main ul li h2 {
+	font-size: 14px;
+}
+
+
+#main {
+	margin-top: 20px;
+}
+#buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}

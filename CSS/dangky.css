@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#topbar{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+}
+#contact ul{
+    display: flex;
+    margin-right: 20px;
+}
+#contact ul li{
+    margin:5px;
+}
+#info-topbar{
+    white-space: pre-line;
+    text-align: center;
+    width: 500px;
+}
+#search{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin: 5px 60px;
+    background-color: white;
+}
+#text-search{
+    border: none;
+    width:80%;
+    padding: 7px;
+    outline: none;
+}
+li{
+    list-style-type: none;
+}
+#button-search{
+    border: none;
+    height: 35px;
+    width: 32px;
+    background-color: white;
+    cursor: pointer;
+}
+#main-header{
+    display: flex;
+    margin-top: 50px;
+    position: sticky;
+    left: 0;
+    top:0;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+}
+#logo{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo img{
+    width: 260px;
+}
+#nav-link > ul{
+    display: flex;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content ul li{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+a:hover{
+    color: orange;
+}
+#nav-link>ul li{
+    margin: 10px;
+}
+#user{
+    margin-left: 40px;
+}
+.cart{
+    padding: 10px;
+}
+.space{
+    background-color: rgb(211, 207, 207);
+    padding-left: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin:40px;
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px 20px;
+    padding: 0px 0px 50px 50px;
+}
+.img-main-product img{
+    width: 100%;
+}
+.image-product{
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+.image-product p{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: red;
+}
+.simage-product{
+    width: 250px;
+}
+.product-name h2{
+    font-size: 16px;
+}
+.product-name p{
+    color: red;
+}
+del{
+    color: gray;
+    font-size: 14px;
+}
+footer{
+    display: flex;
+    padding: 40px 50px;
+    background-color: rgba(19, 19, 19, 0.329);
+    font-size: 16px;
+}
+h3{
+    font-size: 20px;
+}
+.introduce{
+    width: 400px;
+}
+.address{
+    width: 400px;
+    margin: 0px 50px;
+    line-height: 25px;
+}

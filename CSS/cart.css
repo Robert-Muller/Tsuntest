@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#topbar{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+}
+#contact ul{
+    display: flex;
+    margin-right: 20px;
+}
+#contact ul li{
+    margin:5px;
+}
+#info-topbar{
+    white-space: pre-line;
+    text-align: center;
+    width: 500px;
+}
+#search{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin: 5px 60px;
+    background-color: white;
+}
+#text-search{
+    border: none;
+    width:80%;
+    padding: 7px;
+    outline: none;
+}
+li{
+    list-style-type: none;
+}
+#button-search{
+    border: none;
+    height: 35px;
+    width: 32px;
+    background-color: white;
+    cursor: pointer;
+}
+#main-header{
+    display: flex;
+    margin-top: 50px;
+    position: sticky;
+    left: 0;
+    top:0;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    z-index: 1;
+}
+#logo{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo img{
+    width: 260px;
+}
+#nav-link > ul{
+    display: flex;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .arrown{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.dropdown-content ul{
+    margin: -10px;
+}
+.dropdown-content ul li{
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.dropdown-content ul li>a{
+    font-size: 16px;
+}
+.arrown{
+    font-size: 11px;
+    padding-left: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+ul li a:hover{
+    color: orange;
+}
+#nav-link>ul li{
+    margin: 10px;
+}
+#user{
+    margin-left: 40px;
+}
+.cart{
+    padding: 10px;
+}
+.space{
+    background-color: rgba(211, 207, 207,0.4);
+    padding-left: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#cart-section{
+    margin: 30px 100px;
+}
+#cart-section h1{
+    text-align: center;
+    margin:40px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color:rgb(46, 223, 214);
+}
+.sanphamgiohang{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.hinhanhsp{
+    margin-right: 30px;
+}
+.hinhanhsp img{
+    width: 150px;
+}
+.infosp{
+    width: 300px;
+}
+.infosp h2{
+    font-size: 19px;
+}
+.infosp p{
+    line-height: 24px;
+    font-size: 17px;
+}
+.minusplus{
+    border: 1px solid gray;
+}
+#minus, #plus {
+    overflow:hidden;
+    position:relative;
+    background-color:white;
+    height:2rem;
+    width:2rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type=number]{
+    background-color:#fff;
+    height:2rem;
+    width: 2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border: none;
+    padding:0;
+    outline: none;
+}
+.minusplus{
+    border: 1px solid gray;
+    width: 6.5rem;
+    margin-top: 20px;
+}
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.end{
+    margin-left: 590px;
+    position: relative;
+}
+.bin{
+    color: red;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    cursor: pointer;
+}
+.bin:hover{
+    color: black;
+}
+.end p{
+    font-size: 20px;
+    margin-top: 90px;
+}
+.tongtien{
+    display: flex;
+    margin-top: 100px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.247);
+    font-size: 16px;
+    padding: 20px;
+    outline: none;
+}
+.righttinhtien{
+    margin-left: 100px;
+    position: relative;
+    width: 510px;
+}
+.tinhtien p{
+    font-size: 26px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.btnsm{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.btnsm a{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 11px;
+    font-size: 20px;
+}
+#reset{
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+input[type=submit]{
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+    padding: 40px 50px;
+    background-color: rgba(19, 19, 19, 0.329);
+    font-size: 16px;
+}
+h3{
+    font-size: 20px;
+}
+.introduce{
+    width: 400px;
+}
+#logofooter{
+    width: 200px;
+}
+.address{
+    width: 400px;
+    margin: 0px 50px;
+    line-height: 25px;
+}
